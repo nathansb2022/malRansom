@@ -7,7 +7,7 @@ sophisticated piece of code. The encryption file has only been tested on Linux a
 There are different ways to conjure up an upload server, but recommend installing the module "uploadserver" for python3. It is easy to use and allows you to
 upload your key to you attack machine.
 # Remember
-Update the Url for the uploading of the key and include port too.
+IMPORTANT: Read the comments at the top of the python script. Update the Url for the uploading of the key and include port too.
 # Python Upload Server
 pip3 install uploadserver
 Your machine - Example: python3 -m uploadserver 44444
