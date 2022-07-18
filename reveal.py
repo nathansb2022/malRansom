@@ -6,6 +6,7 @@
 # Recovery - Copy and paste the contents from entry.k to the victim machine labelled entry.k.
 # The entry.k file can be recovered from the python3 uploadserver that it was uploaded to in 3rawm05nar.py.
 # Run reveal.py in same directory as entry.k. Start the decryption process.
+# If you receive weird errors, uninstall/reinstall python3. Once complete, rerun reveal.py
 
 #!/usr/bin/env python3
 
