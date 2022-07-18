@@ -2,7 +2,7 @@
 Python code that encrypts files in a user's home directory. IMPORTANT: In progress!
 # Description
 First, I would like to say this is for training purposes only and not to be used in any nefarious way. Definitely, 3rawm05nar.py is not a real 
-sophisticated piece of code. The encryption file has only been tested on Linux and Windows 11. Windows takes longer to run the full script.
+sophisticated piece of code. The encryption file has only been tested on Linux and Windows 11. Windows takes longer to run the full script and requires that python3 is installed to run.
 # Requirements
 There are different ways to conjure up an upload server, but recommend installing the module "uploadserver" for python3. It is easy to use and allows you to
 upload your key to you attack machine.
