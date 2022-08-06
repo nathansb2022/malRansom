@@ -1,5 +1,5 @@
 # malRansom
-Python code that encrypts files in a user's home or users' /home directory. IMPORTANT: In progress!
+Python code that encrypts files in a user's home or users' /home directory.
 # Description
 First, I would like to say this is for training purposes only and not to be used in any nefarious way. Definitely, 3rawm05nar.py is not a real 
 sophisticated piece of code. The encryption/decryption files have only been tested on Redhat 9, Ubuntu 22.04, and Windows 11. Windows takes longer to run the full script and requires that python3 is installed to run. On Redhat, 3rawm05nar.py may have to be ran twice due to missing packages.
