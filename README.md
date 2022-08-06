@@ -2,7 +2,7 @@
 Python code that encrypts files in a user's home or users' /home directory. IMPORTANT: In progress!
 # Description
 First, I would like to say this is for training purposes only and not to be used in any nefarious way. Definitely, 3rawm05nar.py is not a real 
-sophisticated piece of code. The encryption/decryption files have only been tested on Redhat, Ubuntu 22.04, and Windows 11. Windows takes longer to run the full script and requires that python3 is installed to run. On Redhat, 3rawm05nar.py may have to be ran twice due to missing packages.
+sophisticated piece of code. The encryption/decryption files have only been tested on Redhat 9, Ubuntu 22.04, and Windows 11. Windows takes longer to run the full script and requires that python3 is installed to run. On Redhat, 3rawm05nar.py may have to be ran twice due to missing packages.
 # Requirements
 There are different ways to conjure up an upload server, but recommend installing the module "uploadserver" for python3. It is easy to use and allows you to
 upload your key to your attack machine. It highly recommended that you are able to upload files to python3 server before running script.
