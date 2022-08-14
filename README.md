@@ -7,7 +7,7 @@ sophisticated piece of code. The encryption/decryption files have only been test
 There are different ways to conjure up an upload server, but recommend installing the module "uploadserver" for python3. It is easy to use and allows you to
 upload your key to your attack machine. It highly recommended that you are able to upload files to python3 server before running script.
 # Remember
-IMPORTANT: Read the comments at the top of the python script before use. Update the Url for the uploading of the key and include port too. Just an idea... the key is generated at execution, but could be downloaded and passed as a string to eliminate the liability of the uploadserver. The code would have to be refactored at that point and a key would have to be generated prior. Windows will only affect the current user's home directory. Linux is ran with sudo and affects all users in /home.
+IMPORTANT: Read the comments at the top of the python script before use. Update the Url for the uploading of the key and include port too. Just an idea... the key is generated at execution, but could be downloaded and passed as a string to eliminate the liability of the uploadserver. The code would have to be refactored at that point and a key would have to be generated prior. Windows will only affect the current user's home directory. Linux is ran with sudo and affects all users in /home. Use reveal.py for decryption.
 # Windows
 python3 .\3raw05nar.py
 # Linux
